@@ -120,4 +120,20 @@ minima:
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
-
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Terry Yao"
+  - scope:
+      path: "categories"
+      type: ""
+    values:
+      layout: "category"
+  - scope:
+      path: "tags"
+      type: ""
+    values:
+      layout: "tag"
