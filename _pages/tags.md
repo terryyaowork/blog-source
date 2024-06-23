@@ -7,6 +7,7 @@ permalink: /tags/
 <h2>標籤列表</h2>
 <div id="tags">
   <ul>
+        {{ site.tags | jsonify }}
     {% for tag in site.tags %}
       <li>
         <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a> ({{ tag[1].size }})
