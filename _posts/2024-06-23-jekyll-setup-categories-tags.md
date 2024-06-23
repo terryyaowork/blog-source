@@ -3,7 +3,7 @@ layout: post
 title: "設定分類和 Tags 頁面的內容"
 date: 2024-06-23
 categories: jekyll
-tags: ["jekyll"]
+tags: [jekyll]
 ---
 
 以下是設定 Jekyll 分類和 Tags 頁面內容的步驟：

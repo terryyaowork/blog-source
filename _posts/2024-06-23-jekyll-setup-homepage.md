@@ -3,7 +3,7 @@ layout: post
 title: "設定首頁的內容"
 date: 2024-06-23
 categories: jekyll
-tags: ["jekyll"]
+tags: [jekyll]
 ---
 
 以下是設定 Jekyll 首頁內容的步驟：

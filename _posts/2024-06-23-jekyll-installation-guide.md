@@ -3,7 +3,7 @@ layout: post
 title: "基本安裝 Jekyll 的流程及啟動"
 date: 2024-06-23
 categories: jekyll
-tags: ["jekyll"]
+tags: [jekyll]
 ---
 
 以下是安裝 Jekyll 的基本步驟：

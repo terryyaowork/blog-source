@@ -4,6 +4,7 @@ title: "tags"
 permalink: /tags/
 ---
 
+<h2>標籤列表</h2>
 <div id="tags">
   <ul>
     {% for tag in site.tags %}
@@ -12,4 +13,11 @@ permalink: /tags/
       </li>
     {% endfor %}
   </ul>
+</div>
+
+<h2>調試輸出</h2>
+<div>
+  {% for tag in site.tags %}
+    <p>{{ tag[0] }}: {{ tag[1] | size }} 篇文章</p>
+  {% endfor %}
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: "設定 Jekyll 所需要的 Ruby 環境"
 date: 2024-06-23
 categories: jekyll
-tags: ["jekyll"]
+tags: [jekyll]
 ---
 
 要安裝並使用 Jekyll，您需要先設置好您的 Ruby 環境。以下是步驟：
