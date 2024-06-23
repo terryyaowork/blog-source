@@ -47,9 +47,17 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
 
 include:
   - _pages
+
+# 這些配置是用來生成 categories 和 tags 頁面的
+collections:
+  categories:
+    output: true
+  tags:
+    output: true
 
 # Permalinks
 permalink: /posts/:year-:month-:day/:title

@@ -1,15 +1,16 @@
 ---
 layout: page
-title: "tags"
+title: tags
 permalink: /tags/
 ---
 
-<div class="tags">
-    <ul class="tag-list">
-    {% for tag in site.tags %}
-        <li>
-        <a href="{{ site.baseurl }}/tags/{{ tag | first }}">{{ tag | first }}</a> ({{ tag | last | size }})
-        </li>
-    {% endfor %}
+<div>
+  {% for tag in site.tags %}
+    <h3>{{ tag[0] }}</h3>
+    <ul>
+      {% for post in tag[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
     </ul>
+  {% endfor %}
 </div>
