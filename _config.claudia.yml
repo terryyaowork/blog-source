@@ -13,6 +13,7 @@ widgets:
   - recent_posts
   - category
   - profile
+  - search
 
 # social config
 social:
@@ -27,7 +28,7 @@ user:
   name: terryyaowork
   avatar:
   location: Taiwan/Taipei
-  description: May the Force be with you
+  # description: May the Force be with you
   footnotes: # footnotes
 
 # documents: https://github.com/utterance/utterances
@@ -51,7 +52,7 @@ comment_disqus:
 # dark
 # light
 # user-can-set
-appearance: auto # Default value is auto
+appearance: light # Default value is auto
 
 # Miscellaneous
 favicon: images/favicon.ico

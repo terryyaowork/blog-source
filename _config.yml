@@ -109,3 +109,7 @@ deploy:
   # ssh_key: C:/Users/home/.ssh/terryyaowork/id_rsa
   ssh_key: ~/.ssh/work/id_rsa
   
+search:
+  path: search.json
+  field: post
+  content: true
